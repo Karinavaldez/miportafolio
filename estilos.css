@@ -5,6 +5,11 @@
     text-decoration: none;
     user-select: none;
 }
+.general{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 body{
     margin: 0px;
     width: 100%;
@@ -21,8 +26,8 @@ a{
     color: inherit;
 }
 header{
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .cabecera{
     z-index: 11;
@@ -851,7 +856,7 @@ h5{
         font-size: 16px;
     }
  }
- @media screen and (max-width: 750px){
+ @media screen and (max-width: 780px){
     .cuadro{
         display: block;
     }
@@ -868,41 +873,87 @@ h5{
     }
 
  }
- @media (min-width: 320px) and (max-width: 490px){
+ @media (min-width: 320px) and (max-width: 480px){
     .logo_fav{
         margin-top: 0px;
     }
     .section_{
-        padding-top: 100px;
+        padding-top: 150px;
+        width: 100%;
+
         
     }
     .container_section{
         padding: 0px 20px;
+       
+    
+    }
+    .section_boton{
+        font-size: 15px;
+    }
+  
+    
+    header{
+        padding-left: 0px;
     }
     .trabajos1{
         padding: 20px;
+        width: 100%;
     }
     .h2section{
-        font-size: 25px;
-        padding: 20px;
+        font-size: 22px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
     } 
+    hr{
+        display: none;
+    }
     .imgthebee, .imgthebee2{
         padding: 5px;
-        width: 450px;
-        height: 310px;
+        width: 380px;
+        height: 230px;
     }
     .sectionh2, .sectionh3{
         font-size: 60px;
     }
     .final{
         margin: 0px auto 50px;
+        width: 100%;
+        padding: 10px;
     }
     .logo_img{
         margin-top: 20px;
     }
     .conteiner_section1{
         padding: 20px;
+        width: 100%;
+    
     }
+    .tecnologia1{
+        width: 100%;
+    }
+    body{
+       width: 100%;
+    }
+    .cabecera{
+        padding-left: 0px 25px;
+        width: 100%;
+        display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    }
+    .titulo{
+        padding: 10px;
+        width: 100%;
+       
+    }
+    
 
  }
  
