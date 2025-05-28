@@ -18,6 +18,30 @@ function animateBars(){
 
 }
 
+
+const testimonios = [
+  {
+    mensaje: "Karina es muy profesional y resolutiva. Trabajar con ella fue excelente.",
+    autor: "– Julia Ramírez, Electricidad y Control"
+  },
+  {
+    mensaje: "Creativa, puntual y siempre con nuevas ideas. 100% recomendada.",
+    autor: "– Pablo Gigante, TheBee Agency"
+  }
+];
+
+const contenedor = document.querySelector(".testimonios-container");
+
+testimonios.forEach(t => {
+  const div = document.createElement("div");
+  div.className = "testimonio";
+  div.innerHTML = `
+    <p class="mensaje">"${t.mensaje}"</p>
+    <h4 class="autor">${t.autor}</h4>
+  `;
+  contenedor.appendChild(div);
+});
+
 /* const toggleMenuElement = document.getElementById('toggle_menu');
 const mainMenuElement = document.getElementById('main_menu');
 
