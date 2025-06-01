@@ -182,7 +182,7 @@ section{
 }
 .sectionh3{
     font-family: var(--font-sans);
-    font-weight: 650;
+    font-weight: 550;
     color: var(--slate);
     line-height: 1.1;
     font-size: 70px;  
@@ -227,6 +227,7 @@ section{
     color: var(--lightest-slate);
     line-height: 1.1;
     font-family: var(--font-sans);
+    margin-bottom: 20px;
 }
 .sobremi{
     display: flex;
@@ -238,7 +239,7 @@ section{
  hr {
     width: 40%;
 	margin-left: 16px;
-	border: solid  1px #233554;
+	border: solid  1px #23355400;
 	opacity: 0.8;
  }
  .cerouno, .cerodos{
@@ -361,14 +362,14 @@ a.lin:hover{
     padding: 70px;
  }
  .titulo{
-    display: flex;
+    display: block;
     -webkit-box-align: center;
     align-items: center;
     position: relative;
     margin: 10px 0px 40px;
     width: 100%;
     font-size: clamp(26px,5vw,var(--fz-heading));
-    white-space: nowrap;
+    white-space: normal;
     margin-top: 180px;
  }
  .botones{
@@ -988,7 +989,7 @@ h5{
 }
 
 .testimonio {
-  background-color: #fff;
+  background-color: #e0e4ea;
   padding: 25px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -998,12 +999,14 @@ h5{
   font-size: 1.1em;
   font-style: italic;
   color: #555;
+  font-family: sans-serif;
 }
 
 .testimonio .autor {
   margin-top: 15px;
   font-weight: bold;
-  color: #222;
+  color: #0a192f;
+  font-family: sans-serif
 }
 
 /* Responsive */
@@ -1014,7 +1017,7 @@ h5{
     justify-content: space-around;
   }
   .testimonio {
-    width: 30%;
+    width: 40%;
   }
 }
 
